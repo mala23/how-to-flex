@@ -46,3 +46,25 @@ aside {
 main {
   flex: 2;
 }
+
+article {
+  flex: 1;
+  text-align: center;
+}
+
+.three-columns {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;    
+}
+
+footer {
+  background-color: #444;
+  color: #ddd;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
